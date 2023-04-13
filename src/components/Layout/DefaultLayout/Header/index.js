@@ -1,5 +1,14 @@
+import './Header.scss'
+
 function Header() {
-    return <h2>Header</h2>;
+    return (
+        <header className='wrapper-header'>
+            <div className='inner'>
+                {/* Logo */}
+                {/* Search */}
+            </div>
+        </header>
+    );
 }
 
 export default Header;

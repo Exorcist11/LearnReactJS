@@ -1,15 +1,16 @@
 import Header from './Header';
 import Sidebar from './Sidebar';
+import './DefaultLayout.scss';
 
 function DefaultLayout({ children }) {
     return (
-        <>
+        <div className="wrapper-default-layout">
             <Header />
             <div className="container">
                 <Sidebar />
                 <div className="content">{children}</div>
             </div>
-        </>
+        </div>
     );
 }
 
